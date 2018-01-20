@@ -96,6 +96,8 @@ figcaption {
   background: #ccc;
 }
 
+/*following: any time there is an attribute selector of class with a "col-" inside their class name
+they will get the following margin*/
 [class*="col-"] {
   margin-left: 2%;
 }
