@@ -96,8 +96,20 @@ figcaption {
   background: #ccc;
 }
 
+.clearfic:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
 /*following: any time there is an attribute selector of class with a "col-" inside their class name
 they will get the following margin*/
 [class*="col-"] {
   margin-left: 2%;
+}
+
+.first {
+  margin-left: 0%;
 }
